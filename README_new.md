@@ -9,7 +9,7 @@
 
 **A beautiful, responsive e-commerce platform built with modern React and Vite**
 
-[🚀 Live Demo](https://mani-techstore.netlify.app/) • [📖 Documentation](#features) • [💻 Installation](#installation) • [🤝 Contributing](#contributing)
+[🚀 Live Demo](#) • [📖 Documentation](#features) • [💻 Installation](#installation) • [🤝 Contributing](#contributing)
 
 ---
 
