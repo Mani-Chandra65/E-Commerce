@@ -1072,3 +1072,62 @@ h3 { font-size: var(--font-size-2xl); }
     justify-content: center;
   }
 }
+
+/* Footer Styles */
+.footer {
+  margin-top: auto;
+  padding: 2rem 0 1rem;
+  background: linear-gradient(135deg, 
+    rgba(var(--color-slate-900-rgb), 0.1), 
+    rgba(var(--color-teal-500-rgb), 0.05)
+  );
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  font-weight: 400;
+}
+
+.footer-author {
+  font-weight: 600;
+  color: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-teal-800));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footer-location {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+/* Responsive Footer */
+@media (max-width: 480px) {
+  .footer {
+    padding: 1.5rem 0 1rem;
+  }
+  
+  .footer-text {
+    font-size: 0.85rem;
+  }
+  
+  .footer-location {
+    font-size: 0.8rem;
+  }
+}

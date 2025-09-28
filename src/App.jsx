@@ -5,6 +5,7 @@ import ProductDetail from './components/ProductDetail.jsx';
 import Checkout from './components/Checkout.jsx';
 import SuccessView from './components/SuccessView.jsx';
 import CartModal from './components/CartModal.jsx';
+import Footer from './components/Footer.jsx';
 import { PRODUCTS } from './data/products.js';
 import './App.css';
 
@@ -204,6 +205,8 @@ function App() {
           }}
         />
       )}
+      
+      <Footer />
     </div>
   );
 }
