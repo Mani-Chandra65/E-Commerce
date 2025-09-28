@@ -169,7 +169,7 @@ function App() {
         <header className="checkout-header">
           <div className="container">
             <div className="checkout-header-content">
-              <h1 className="logo">TechStore</h1>
+              <h1 className="logo">MCStores</h1>
               <button className="back-to-shop-btn" onClick={() => setCurrentView('productList')}>
                 ← Back to Shopping
               </button>

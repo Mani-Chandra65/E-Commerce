@@ -22,7 +22,7 @@ const Header = ({ cartItemCount, onCartClick, onSearch, searchQuery }) => {
     <header className="header">
       <div className="container">
         <div className="header-content">
-          <h1 className="logo">TechStore</h1>
+          <h1 className="logo">MCStores</h1>
           
           <div className="search-container">
             <input
